@@ -1,10 +1,13 @@
+from typing import Dict, List
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from src.utils import logger, file_utils
+from .utils import logger, file_utils
 import time
 import pandas as pd
+
+from src.utils.user_agents import get_random_user_agent
 
 class APECodeScraper:
     def __init__(self, headless=True):

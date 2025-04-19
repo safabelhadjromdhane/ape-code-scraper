@@ -31,3 +31,19 @@ EXCEL_SETTINGS = {
         "auto_filter": True
     }
 }
+APE_CODES = {
+    "6201Z": "Software Development",
+    "6202A": "IT Consulting",
+    "6203Z": "Computer Facilities Management",
+    "6311Z": "Data Processing, Hosting and Related Activities",
+    "6312Z": "Web Portals",
+    "5829C": "Publishing of Other Software",
+    "7022Z": "Business and Other Management Consultancy Activities",
+    "7112B": "Engineering Activities and Related Technical Consultancy",
+    "7410Z": "Specialized Design Activities",
+    "7490B": "Other Professional, Scientific and Technical Activities n.e.c.",
+    "8559A": "Continuing Education for Adults",
+    "6209Z": "Other Information Technology and Computer Service Activities",
+    "6312Z": "Web Portal Activities",
+    "7311Z": "Advertising Agencies"
+}
