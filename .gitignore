@@ -1,0 +1,32 @@
+# Data files
+/data/
+!/data/.gitkeep
+
+# Logs
+/logs/
+*.log
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/*.ipynb
+
+# System
+.DS_Store
