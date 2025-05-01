@@ -48,27 +48,3 @@ processed_df.to_excel(
     sheet_name="Analyzed",  # Custom sheet name
     index=False            # Exclude index column
 )
-# Best Practices:
-
-🔄 Version processed files (e.g., "results_v1.xlsx")
-
-📌 Document transformations in sheet names
-
-🚫 Never modify raw files directly
-
-
-🚀 Quickstart Example
-python
-from src.ape_scraper import APECodeScraper
-from src.utils.file_utils import save_to_excel
-
-# 1. Initialize scraper
-scraper = APECodeScraper(headless=True)
-
-# 2. Scrape IT companies (APE 6201Z)
-data = scraper.scrape(ape_code="6201Z", pages=2)
-
-# 3. Save raw data
-save_to_excel(data, "data/raw/it_companies.xlsx")
-
-
